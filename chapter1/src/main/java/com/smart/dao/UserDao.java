@@ -30,7 +30,8 @@ public class UserDao {
                 new RowCallbackHandler() {
                     public void processRow(ResultSet resultSet) throws SQLException {
                         user.setUserId(resultSet.getInt("user_id"));
-                        user.setUserName("userName");
+//                        user.setUserName("userName");
+                        user.setUserName(resultSet.getString("user_name"));
                     }
                 });
         return user;
