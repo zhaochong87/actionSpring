@@ -22,7 +22,8 @@ public class LoginController {
 
     @RequestMapping(value = "/login.html")
     public String loginPage() {
-        return "login";
+//        return "login";
+        return "loginExt";
     }
 
     @RequestMapping(value = "/loginCheck.html")

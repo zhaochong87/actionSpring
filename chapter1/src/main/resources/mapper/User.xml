@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 方式一：直接映射实体 -->
+<mapper namespace="com.smart.domain.UserMapper">
+    <!-- 方式二：接口形式的映射 -->
+<!--<mapper namespace="com.zhaochong.mybatis.dao.UserDao">
+    <select id="selectUserByID" parameterType="int" resultType="User">
+		select * from USER where id = #{id}
+	</select>-->
+</mapper>
