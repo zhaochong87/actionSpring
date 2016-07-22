@@ -19,7 +19,9 @@
         <!--① 依赖的Spring模块类库 -->
         <dependency>
             <groupId>org.springframework</groupId>
-            <artifactId>spring-beans</artifactId>
+            <!--<artifactId>spring-beans</artifactId>-->
+            <!--artifactId改用context-->
+            <artifactId>spring-context</artifactId>
             <version>${org.springframework.version}</version>
         </dependency>
         <dependency>
@@ -27,7 +29,7 @@
             <artifactId>spring-jdbc</artifactId>
             <version>${org.springframework.version}</version>
         </dependency>
-        <dependency>
+       <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
             <version>${org.springframework.version}</version>
